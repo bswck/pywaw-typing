@@ -1,0 +1,13 @@
+[project]
+name = "pywaw-typing"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mypy>=1.14.1",
+    "mypy-baseline>=0.7.2",
+    "pyre-check>=0.9.23",
+    "pyright>=1.1.392.post0",
+    "pytype>=2024.10.11",
+]
