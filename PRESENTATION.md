@@ -414,11 +414,13 @@ Besides that, there are...
 - Special forms (e.g. `Never`, `Literal`, `Generic`, `TypedDict`)
 - _Weird_ types (e.g. `None`, `NotImplemented`, `NewType`)
 
-## Assignability relation – the Liskov substitution principle
+## Understand the subtyping relation
 <div class="labels">
     <code class="intermediate"></code>
     <code class="advanced"></code>
 </div>
+
+The Liskov substitution principle.
 
 We have a function `compute_salary(e: Employee)`.
 It accepts an argument of type `Employee`.
@@ -435,7 +437,6 @@ Have an async function? Create a separate coroutine function.
 Have a sync function? Create a separate function.
 
 Not both at the same time ;)
-
 
 # What I like about strict static typing in Python
 <div class="labels">
@@ -563,6 +564,7 @@ https://github.com/bswck (pinned repo)
 - DO minimize runtime overhead if using inlined types. E.g. [this PR](https://github.com/Textualize/textual/pull/4659)
 
 # Wrapping up
+https://github.com/bswck (pinned repo)
 
 # Share your feedback
 
